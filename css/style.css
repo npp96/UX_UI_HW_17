@@ -1,10 +1,71 @@
+@import url(./variables.css);
 
-.navigation {
-
-    text-decoration: none;
-    position: inline;
-    left: 0px;
+body {
+    color: var(#EECABD);
+}
+.topNav {
+    display: flex;
     background-color: #EEEBE8;
-    color: #000000;
-    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+  
+    font-family: 'Amiko', sans-serif;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+  
+ 
+}
+
+ul {
+list-style: none;
+display: inline inline-block;
+}
+
+
+.hero {
+    padding: 47px 180px;
+    display: flex;
+    justify-content: space-between;
+background-color: #EECABD;
+flex-direction: row;
+max-width: 1320px;
+}
+
+h3 {
+    font-family: 'Amiko', sans-serif;
+    color: black;
+    font-size: 40px;
+text-align: justify center;
+}
+p1 {
+    font-family: 'Amiko', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+body {
+    background-color: #EECABD;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiko', sans-serif;
+
+}
+
+h1 {
+   
+    font-size: 30px;
+    color: black;
+}
+p {
+    font-size: 16px;
+    color: black;
 }

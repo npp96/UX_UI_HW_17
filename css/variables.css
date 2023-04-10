@@ -1,0 +1,14 @@
+:root {
+    --background: #EECABD;
+    --navbar: #EEEBE8;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif;
+    color: black;
+    font-weight: 600;
+    display: inline;
+ 
+}
