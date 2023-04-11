@@ -4,11 +4,12 @@ body {
     color: var(#EECABD);
 }
 .topNav {
+  width: 100%;
     display: flex;
     background-color: #EEEBE8;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px;
 }
 
 nav a {
@@ -18,6 +19,8 @@ nav a {
     color: black;
     font-weight: 600;
     padding: 10px;
+    margin:0 auto;
+    width:9999px;
   
  
 }
@@ -76,8 +79,9 @@ p {
 
 .card {
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #E0DDD5;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -87,10 +91,12 @@ p {
   }
   
   .card img {
+    background-color: #EEEBE8;
     flex-shrink: 0;
-    width: 40%;
-    object-fit: cover;
-    object-position: center;
+    width: 900px;
+   
+    object-fit: scale-down;
+    object-position: flex;
   }
   
   .card-text {
